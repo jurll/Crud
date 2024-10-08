@@ -1,0 +1,78 @@
+/* General styles */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #f0f4f8;
+	color: #333;
+	
+	align-items: center;
+	min-height: 100vh;
+}
+
+form {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 80%;
+	max-width: 600px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+input[type="text"],
+select {
+	width: 100%;
+	padding: 12px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: #f9f9f9;
+}
+
+input[type="text"]:focus,
+select:focus {
+	border-color: #4CAF50;
+	outline: none;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 20px;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+/* Spacing between sections */
+.form-section {
+	margin-bottom: 30px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+	form {
+		padding: 20px;
+	}
+}
